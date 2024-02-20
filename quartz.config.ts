@@ -63,6 +63,7 @@ const config: QuartzConfig = {
         // if set to 'false', will use Quartz theme colors for background
         keepBackground: false,
       }),
+      Plugin.OxHugoFlavouredMarkdown({ wikilinks: true, removePredefinedAnchor: true }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
